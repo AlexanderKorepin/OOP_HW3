@@ -15,6 +15,7 @@ public class Main implements Constants {
         cat.setName(cat_name);
         cat.setAge(cat_age);
         cat.setOwnerName(owner_name);
+        cat.greet();
 
         Predicate<Integer> vaccination_age = ageValue -> ageValue > vaccination_cat_age;
         boolean result = vaccination_age.test(cat.getAge());

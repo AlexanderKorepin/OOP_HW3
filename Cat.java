@@ -40,9 +40,6 @@ class Cat extends Owner {
     public void setAge(Integer age) {
         this.age = age;
     }
-
-    
-    
     public void greet() {
         System.out.println("Мяу! Меня зовут " + name + ". Мне " + age + " года(лет). Мой владелец " + getOwnerName() + "!");
     }

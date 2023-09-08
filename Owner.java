@@ -18,7 +18,8 @@ public class Owner implements SoundEffect {
     }
 
     @Override
-    public void makeSound() {
+    public void callAnimal() {
         System.out.println(getOwnerName() + " зовет Коржика кушать.");
     }
+
 }
